@@ -1,0 +1,32 @@
+.navbar{
+    background-color: darkred;
+    overflow: hidden;
+    height: 60px;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    display:flex;
+    margin: auto; 
+    position: relative;
+}
+
+.navbar h1{
+    color:gainsboro;
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.navbar a{
+    color:gainsboro;
+    text-align: center;
+    font-size: 1.3em;
+    text-decoration: none;
+    margin: 0 10px; 
+}
+
+.navbar a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
