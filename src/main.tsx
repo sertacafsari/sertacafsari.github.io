@@ -1,10 +1,11 @@
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
-import { BrowserRouter } from 'react-router-dom'
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App.tsx";
+import { BrowserRouter } from "react-router-dom";
 
-const root = createRoot(document.getElementById('root') as HTMLElement);
+const root = createRoot(document.getElementById("root") as HTMLElement);
 root.render(
-    <BrowserRouter basename="/sertacafsari.github.io">
-      <App />
-    </BrowserRouter>);
+  <BrowserRouter basename="/sertacafsari.github.io">
+    <App />
+  </BrowserRouter>
+);
