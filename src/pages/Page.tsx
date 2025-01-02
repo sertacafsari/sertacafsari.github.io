@@ -6,7 +6,7 @@ function Page() {
     <>
         <NavBar />
         <Header />
-        <article>trial!!!</article>
+        <p>trial!!!</p>
     </>
   );
 }
