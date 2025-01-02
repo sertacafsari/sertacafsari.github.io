@@ -6,6 +6,7 @@ function Page() {
     <>
         <NavBar />
         <Header />
+        <article>trial!!!</article>
     </>
   );
 }
