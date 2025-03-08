@@ -1,11 +1,15 @@
 
-import Page from "./pages/Page"
+import NavBar from "./components/NavBar";
+import Header from "./components/Header";
+// import Bio from "../src/components/Bio";
 
 function App() {
 
   return (
     <>
-      <Page />
+      <NavBar />
+      <Header />
+      {/* <Bio /> */}
     </>
   )
 }

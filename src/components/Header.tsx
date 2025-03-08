@@ -22,10 +22,10 @@ function Header() {
                     <a href="https://github.com/sertacafsari" target="_blank" rel="noopener noreferrer">
                         <IoLogoGithub/>
                     </a>
-                    <a href='https://www.linkedin.com/in/serta%C3%A7-bahad%C4%B1r-af%C5%9Fari-ba07b4197/' target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/serta%C3%A7-bahad%C4%B1r-af%C5%9Fari-ba07b4197/" target="_blank" rel="noopener noreferrer">
                         <IoLogoLinkedin/>
                     </a>
-                    <a href='' target='_blank' rel="noopener noreferrer">
+                    <a href="" target='_blank' rel="noopener noreferrer">
                         <TbFileCv/>
                     </a>
                 </div>

@@ -1,13 +1,20 @@
 .header {
     position: relative;
+    width: 100%;
+    /* Fix the header height or use vh to be responsive */
+    height: 340px; /* or 50vh, etc. */
     overflow: hidden;
-}
-
-.background-image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;       /* Fills the .header container */
+    object-fit: cover;  /* Keeps the image nicely cropped */
+  }
+  
 
 .profile-card {
     position: absolute;
